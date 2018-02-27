@@ -1,6 +1,6 @@
 # testPixel
 
-Use this project to calculate the Device Pixel Ratio (DPR) of your device.
+Use this page to calculate the Device Pixel Ratio (DPR) of your device.
 
 Since I was unable to find the DPR for some of my devices I have created this web page, that according to the following code: 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"> 
@@ -14,5 +14,14 @@ Please note, in portrait mode probably your device's browser will take some spac
 
 Search yor device's specs and divide each size for the relative size measured on the scale.
 For example, my device's sizes are 1080x1920. I measure on the scale 360x640. 
-For each side my device has a DPR of 3. (1080/360=3  1920/640=3)
+For each side, my device has a DPR of 3. (1080/360=3  1920/640=3)
+<img src="media/Screenshot_20180227-161148.png" width="200px"><br>
+As you can see at the top and bottom the browser covers the screen, unfortunately rotating the device in landscape did not help because the navigation menu bar is not removed as happens in other apps so I used a scaled magnifier to calculate the covered area.
+<img src="media/IMG_0085.jpg" width="200px">
 
+Another example with the iPhone SE:
+<img src="media/IMG_0083.png" width="200px">
+<img src="media/IMG_0084.png" width="200px">
+As you can see on the scale it is measured 320x570. Its sizes are 640x1136 so its DPR is 2 for each side.
+
+Values are confirmed by <a href="https://developer.apple.com/library/content/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html#//apple_ref/doc/uid/TP40013599-CH108-SW1" target="_blank">this page</a>. Reading on the scale I can't see it but according to the page from Apple honestly it should be 568px rather 570px.
