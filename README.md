@@ -10,6 +10,7 @@ How to use?
 Open the this <a href="http://htmlpreview.github.io/?https://github.com/CristianoZitarosa/testPixel/blob/master/index.html" target="_blank">link</a> on your device.
 
 Then just count on the grid how many pixels are shown on the screen for each side.
+The full background is 1000x1000, subdivided in squares 100x100, grid has further subdivisions for 10px and 5px. 
 Please note, in portrait mode probably your device's browser will take some space on top and bottom od the page, so rotate the device to landscape to have a clear vision of the scale in the sides (top and bottom in portrait become device's sides in landscape).
 
 Search online your device's specs and divide each size for the relative size measured on the scale.
