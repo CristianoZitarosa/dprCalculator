@@ -7,7 +7,7 @@ Since I was unable to find the DPR for some of my devices I have created this we
 will be loaded on your device using its DIP rather than a virtual viewport.
 
 How to use?
-Open the this a href="http://htmlpreview.github.io/?https://github.com/CristianoZitarosa/testPixel/blob/master/index.html" target="blank">link</a> on your device.
+Open the this <a href="http://htmlpreview.github.io/?https://github.com/CristianoZitarosa/testPixel/blob/master/index.html" target="blank">link</a> on your device.
 
 Then just count on the scale how many pixels are shown on the screen for each side.
 Please note, in portrait mode probably your device's browser will take some space on top and bottom od the page, so rotate the device to landscape have a clear vision of the scale in the sides (top and bottom in portrait become device's sides in landscape).
