@@ -7,7 +7,7 @@ Since I was unable to find the DPR for some of my devices I have created this we
 will be loaded on your device using its DIP rather than a virtual viewport.
 
 How to use?
-Open the this <a href="http://htmlpreview.github.io/?https://github.com/CristianoZitarosa/testPixel/blob/master/index.html" target="_blank">link</a> on your device.
+Open the this <a href="https://cristianozitarosa.github.io/dprCalculator/" target="_blank">link</a> on your device.
 
 Then just count on the grid how many pixels are shown on the screen for each side.
 The full background is 1000x1000, subdivided in squares 100x100, grid has further subdivisions for 10px and 5px. 
